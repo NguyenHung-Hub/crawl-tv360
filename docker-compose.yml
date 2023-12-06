@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  tv360_mysql:
+    image: mysql:latest
+    container_name: tv360_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: tv360
+      MYSQL_USER: user1
+      MYSQL_PASSWORD: 123456
+    volumes:
+      - ./docker/mysql/data:/var/lib/mysql
+      - ./docker/mysql/init:/docker-entrypoint-initdb.d
+    ports:
+      - "3306:3306"
+
+volumes:
+  tv360_data:

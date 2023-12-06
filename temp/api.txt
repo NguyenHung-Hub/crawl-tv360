@@ -1,0 +1,12 @@
+- Phim:
+	+ Lấy Category ID: https://tv360.vn/public/v1/composite/film/get-home?offset=10&limit=10
+	+ Lấy Video: https://tv360.vn/public/v1/vod/get-more-content?key=film_category&id=179&offset=30&limit=30
+- HBO:
+	+ Lấy Category ID: https://tv360.vn/public/v1/composite/get-home-hbo?id=0&offset=0&limit=10
+	+ Lấy Video: https://tv360.vn/public/v1/vod/get-list-item-collection?offset=30&limit=30&id=511
+- Trực Tiếp:
+	+ Lấy Kênh: https://tv360.vn/public/v1/live/get-detail-category?id=0&offset=0&limit=1000
+- Videos:
+	+ Lấy Category: https://tv360.vn/public/v1/vod/get-list-category?id=0&offset=0&limit=10
+	+ Lấy Video: https://tv360.vn/public/v1/vod/get-list-video-category?id=1765&offset=30&limit=30
+	fajkasdfkjasdfk
